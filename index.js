@@ -19,9 +19,7 @@ module.exports = function debounce (fn, wait = 0, options = {}) {
         : Promise.resolve(fn.call(this, ...args))
     }
 
-    if (deferred) {
-      clearTimeout(timer)
-    } else {
+    if (!deferred) {
       deferred = defer()
     }
 
