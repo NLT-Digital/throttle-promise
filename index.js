@@ -21,10 +21,10 @@ module.exports = function debounce (fn, wait = 0, options = {}) {
 
     if (!deferred) {
       deferred = defer()
+      timer = setTimeout(flush.bind(this), currentWait)
     }
 
     pendingArgs.push(args)
-    timer = setTimeout(flush.bind(this), currentWait)
 
     if (options.accumulate) {
       const argsIndex = pendingArgs.length - 1
