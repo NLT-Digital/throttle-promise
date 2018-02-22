@@ -1,7 +1,7 @@
 {
-  "name": "debounce-promise",
+  "name": "throttle-promise",
   "version": "3.1.0",
-  "description": "Create a debounced version of a promise returning function",
+  "description": "Create a throttled version of a promise returning function",
   "main": "dist/index",
   "runkitExampleFilename": "./example.js",
   "scripts": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bjoerge/debounce-promise.git"
+    "url": "git+https://github.com/NLT-Digital/throttle-promise.git"
   },
   "keywords": [
     "promise",
@@ -27,9 +27,9 @@
   "author": "Bjørge Næss",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bjoerge/debounce-promise/issues"
+    "url": "https://github.com/NLT-Digital/throttle-promise/issues"
   },
-  "homepage": "https://github.com/bjoerge/debounce-promise",
+  "homepage": "https://github.com/NLT-Digital/throttle-promise",
   "devDependencies": {
     "babel-cli": "^6.5.2",
     "babel-plugin-transform-async-to-generator": "^6.16.0",
